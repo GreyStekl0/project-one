@@ -1,0 +1,44 @@
+/* начало стилей для навигации */
+nav {
+  display: flex;
+}
+.navigation {
+  padding-top: 35px;
+  margin-bottom: 72px;
+  @media screen and (max-width: 475px) {
+    padding-top: 15px;
+  }
+  .navigation__wrapp {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      @media screen and (max-width: 425px) {
+        width: 75px;
+      }
+    }
+
+    .navigation__list {
+      display: flex;
+      align-items: center;
+      gap: 39px;
+
+      @media screen and (max-width: 475px) {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .navigation__list-item-link {
+        font-weight: 500;
+        color: var(--dark);
+        text-decoration: none;
+        font-size: 18px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+/* конец стилей для навигации */
