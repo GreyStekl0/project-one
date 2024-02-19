@@ -1,4 +1,42 @@
 @charset "UTF-8";
+:root {
+  --box-shadow: 0 0 35px rgba(12, 40, 54, 0.12);
+  --dark: #0C2836;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 1.5rem;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container, .container-md, .container-sm {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+  }
+}
 /* обнуление стилей*/
 *,
 *::before,
@@ -17,11 +55,6 @@ ul {
 
 /* обнуление стилей закончено*/
 /* настройка основных стилей */
-:root {
-  --box-shadow: 0 0 35px rgba(12, 40, 54, 0.12);
-  --dark: #0C2836;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -119,7 +152,7 @@ nav {
 .promo p {
   margin-bottom: 262px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   .promo p {
     margin-bottom: 285px;
   }
@@ -134,7 +167,7 @@ nav {
   background: url("../../public/bg.png") center no-repeat;
   background-size: contain;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   .promo .promo-bg {
     height: 670px;
   }
@@ -191,12 +224,12 @@ nav {
   text-align: right;
   margin-bottom: 24px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .web__list li {
     margin-bottom: 12px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .web__list li {
     text-align: center;
   }

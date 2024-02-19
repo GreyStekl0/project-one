@@ -21,11 +21,11 @@
   line-height: 38px;
   text-align: right;
   margin-bottom: 24px;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: $lg){
     margin-bottom: 12px;
   }
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: $lg){
     text-align: center;
   }
 }
