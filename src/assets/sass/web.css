@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* начало стилей для web блока*/
+.web {
+  margin-bottom: 100px;
+}
+
+.web span {
+  color: #FC8602;
+}
+
+.web__list {
+  margin: 21px 42px 16px auto;
+}
+
+.web__list li {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: right;
+  margin-bottom: 24px;
+}
+
+.web__Card {
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+  box-shadow: var(--box-shadow);
+  border-radius: 40px;
+}
+
+.web__card-img-wrap {
+  margin: 40px auto 25px 40px;
+  width: 75px;
+  height: 75px;
+  display: flex;
+}
+
+.web__Card-text {
+  margin: auto 40px 67px 40px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+/* конец стилей для web блока*/
+
+/*# sourceMappingURL=web.css.map */

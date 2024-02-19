@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* начало стилей для фидера */
+.footer__top {
+  margin-bottom: 74px;
+}
+
+.footer__links {
+  text-align: center;
+}
+
+.footer__links-item-link {
+  font-size: 24px;
+  color: var(--dark);
+}
+
+.footer__info {
+  text-align: right;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+/* конец стилей для фидера */
+
+/*# sourceMappingURL=footer.css.map */
